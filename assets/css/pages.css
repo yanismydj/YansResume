@@ -1,0 +1,339 @@
+.container {
+  margin-top:100px;
+}
+
+.list-unstyled li {
+  padding-bottom: 40px;
+}
+
+a {
+  color: white;
+}
+
+.tech-logo {
+  height: auto;
+  width: auto;
+  max-width: 30px;
+  margin-right: 10px;
+}
+
+.company-logo {
+  height: auto;
+  width: auto;
+  max-height: 100px;
+}
+
+html {
+    height: 100%;
+  }
+
+  body {
+    background: #E2E4E7;
+    padding: 0;
+    text-align: left;
+    font-family: 'open sans';
+    position: relative;
+    margin: 0;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .wrapper {
+    height: 100% !important;
+    height: 100%;
+    margin: 0 auto; 
+    overflow: hidden;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  h1 {
+    margin-top: 100px;
+    color: #000;
+    margin-bottom: 5px;
+    font-size: 70px;
+    letter-spacing: -2px;
+    font-weight: 100;
+  }
+
+  h2 {
+    color: #6D461D;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  /* First Page/HI */
+  .main h1 {
+    padding:150px 50px;
+    float: left;
+    width: 100%;
+    font-size: 45px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-weight: 100;
+    color: white;
+    margin: 0;
+  }
+  
+  .main section.hi {
+    background: rgb(236, 240, 241);
+  }
+
+  .main section.hi h1 {
+    text-align: left;
+    padding: 0;
+    margin-bottom: 15px;
+    font-size: 70px;
+    color: black;
+  }
+  
+  .main section.hi h2 {
+    color: rgba(0,0,0,0.85);
+    text-align: left;
+    line-height: 160%;
+    color: black;
+  }
+  
+  /* Beatport */
+  .main section.beatport {
+    background: rgb(52, 73, 94);
+  }
+
+  .main section.beatport > img {
+    position: absolute;
+    top: -300px;
+    left: 50%;
+  }
+
+  .main section.beatport h1 {
+    text-align: left;
+    padding: 0;
+    margin-bottom: 15px;
+    font-size: 50px;
+    letter-spacing: -1px;
+    color: white;
+  }
+
+  .main section.beatport h2 {
+    color: rgba(255,255,255,0.85);
+    text-align: left;
+    line-height: 160%;
+    font-weight: 100;
+  }
+
+  .main section.xfer {
+    background: rgb(127, 140, 141);
+  }
+
+  .main section.xfer > img {
+    position: absolute;
+    top: -300px;
+    left: 50%;
+  }
+
+  .main section.xfer h1 {
+    text-align: left;
+    padding: 0;
+    margin-bottom: 15px;
+    font-size: 50px;
+    letter-spacing: -1px;
+    color: white;
+  }
+
+  .main section.xfer h2 {
+    color: rgba(255,255,255,0.85);
+    text-align: left;
+    line-height: 160%;
+    font-weight: 100;
+  }
+
+  .main section.aglocal {
+    background: rgb(39, 174, 96);
+  }
+
+  .main section.aglocal > img {
+    position: absolute;
+    top: -300px;
+    left: 50%;
+  }
+
+  .main section.aglocal h1 {
+    text-align: left;
+    padding: 0;
+    margin-bottom: 15px;
+    font-size: 50px;
+    letter-spacing: -1px;
+    color: black;
+  }
+
+  .main section.aglocal h2 {
+    color: rgba(255,255,255,0.85);
+    text-align: left;
+    line-height: 160%;
+    font-weight: 100;
+    color: black;
+  }
+
+  .main section.intrans {
+    background: rgb(44, 62, 80);
+  }
+
+  .main section.intrans > img {
+    position: absolute;
+    top: -300px;
+    left: 50%;
+  }
+
+  .main section.intrans h1 {
+    text-align: left;
+    padding: 0;
+    margin-bottom: 15px;
+    font-size: 50px;
+    letter-spacing: -1px;
+    color: white;
+  }
+
+  .main section.intrans h2 {
+    color: rgba(255,255,255,0.85);
+    text-align: left;
+    line-height: 160%;
+    font-weight: 100;
+    color: white;
+  }
+
+  /* Kabam */
+  .main section.kabam {
+    background: rgb(243, 156, 18);
+  }
+
+  .main section.kabam > img {
+    position: absolute;
+    top: -300px;
+    left: 50%;
+  }
+
+  .main section.kabam h1 {
+    text-align: left;
+    padding: 0;
+    margin-bottom: 15px;
+    font-size: 50px;
+    letter-spacing: -1px;
+    color: black;
+  }
+
+  .main section.kabam h2 {
+    color: rgba(255,255,255,0.85);
+    text-align: left;
+    line-height: 160%;
+    font-weight: 100;
+    color: black;
+  }
+
+  /* Gravity */
+  .main section.gravity {
+    background: rgb(236, 240, 241);
+  }
+
+  .main section.gravity > img {
+    position: absolute;
+    top: -300px;
+    left: 50%;
+  }
+
+  .main section.gravity > a {
+    color: black;
+  }
+
+  .main section.gravity h1 {
+    text-align: left;
+    padding: 0;
+    margin-bottom: 15px;
+    font-size: 50px;
+    letter-spacing: -1px;
+    color: black;
+  }
+
+  .main section.gravity h2 {
+    color: rgba(255,255,255,0.85);
+    text-align: left;
+    line-height: 160%;
+    font-weight: 100;
+    color: black;
+  }
+
+  body.disabled-onepage-scroll .onepage-wrapper  section {
+    min-height: 100%;
+    height: auto;
+  }
+  
+  body.disabled-onepage-scroll .main section .page_container, body.disabled-onepage-scroll .main section.aglocal .page_container  {
+    padding: 20px;
+    margin-top: 150px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body.disabled-onepage-scroll  section .page_container h1{
+    text-align: center;
+    font-size: 50px;
+  }
+  body.disabled-onepage-scroll section .page_container h2, body.disabled-onepage-scroll section .page_container .credit, body.disabled-onepage-scroll section .page_container .btns{
+    text-align: center;
+    width: 100%;
+  }
+  
+  body.disabled-onepage-scroll .main section.hi > img {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+  }
+  
+  body.disabled-onepage-scroll .main section > img {
+    position: relative;
+    max-width: 80%;
+    bottom: 0;
+  }
+
+  body.disabled-onepage-scroll code {
+    width: 95%;
+    margin: 0 auto 25px;
+    float: none;
+    overflow: hidden;
+  }
+  
+  body.disabled-onepage-scroll .main section.aglocal .page_container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+  }
+}
+
+.fader {
+    padding: 0.2em;
+    margin: 50px;
+}
+
+@-webkit-keyframes twinkly {
+    0%   { opacity: 0.4; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes twinkly  {
+    0%   { opacity: 0.4; }
+    100% { opacity: 1; }
+}
+@-ms-keyframes twinkly  {
+    0%   { opacity: 0.4; }
+    100% { opacity: 1; }
+}
+
+.fader{
+    -webkit-animation: twinkly 1s alternate infinite;
+    -moz-animation: twinkly 1s alternate infinite;
+    -ms-animation: twinkly 1s alternate infinite;
+}

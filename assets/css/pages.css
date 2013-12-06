@@ -6,10 +6,6 @@
   padding-bottom: 40px;
 }
 
-a {
-  color: white;
-}
-
 .tech-logo {
   height: auto;
   width: auto;
@@ -17,8 +13,7 @@ a {
   margin-right: 10px;
 }
 
-.white-text {
-  h1 {
+.white-text h1 {
     padding:150px 50px;
     float: left;
     width: 100%;
@@ -29,19 +24,24 @@ a {
     font-weight: 100;
     color: white;
     margin: 0;
-  }
+}
+
+.white-text a {
+  color: white;
+  font-style:italic;
 }
 
 .black-text h1 {
   color: black;
 }
 
-black-text h2 {
+.black-text h2 {
   color: black;
 }
 
 .black-text a {
   color: black;
+  font-style:italic;
 }
 
 .white-text h2 {

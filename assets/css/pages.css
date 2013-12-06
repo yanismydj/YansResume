@@ -17,6 +17,47 @@ a {
   margin-right: 10px;
 }
 
+.white-text {
+  h1 {
+    padding:150px 50px;
+    float: left;
+    width: 100%;
+    font-size: 45px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-weight: 100;
+    color: white;
+    margin: 0;
+  }
+}
+
+.black-text h1 {
+  color: black;
+}
+
+black-text h2 {
+  color: black;
+}
+
+.black-text a {
+  color: black;
+}
+
+.white-text h2 {
+  color: white;
+  text-align: left;
+  line-height: 160%;
+  font-weight: 100;
+}
+
+.black-text h2 {
+  color: black;
+  text-align: left;
+  line-height: 160%;
+  font-weight: 100;
+}
+
 .company-logo {
   height: auto;
   width: auto;
@@ -118,13 +159,6 @@ html {
     color: white;
   }
 
-  .main section.beatport h2 {
-    color: rgba(255,255,255,0.85);
-    text-align: left;
-    line-height: 160%;
-    font-weight: 100;
-  }
-
   .main section.xfer {
     background: rgb(127, 140, 141);
   }
@@ -144,13 +178,6 @@ html {
     color: white;
   }
 
-  .main section.xfer h2 {
-    color: rgba(255,255,255,0.85);
-    text-align: left;
-    line-height: 160%;
-    font-weight: 100;
-  }
-
   .main section.aglocal {
     background: rgb(39, 174, 96);
   }
@@ -167,14 +194,6 @@ html {
     margin-bottom: 15px;
     font-size: 50px;
     letter-spacing: -1px;
-    color: black;
-  }
-
-  .main section.aglocal h2 {
-    color: rgba(255,255,255,0.85);
-    text-align: left;
-    line-height: 160%;
-    font-weight: 100;
     color: black;
   }
 
@@ -197,14 +216,6 @@ html {
     color: white;
   }
 
-  .main section.intrans h2 {
-    color: rgba(255,255,255,0.85);
-    text-align: left;
-    line-height: 160%;
-    font-weight: 100;
-    color: white;
-  }
-
   /* Kabam */
   .main section.kabam {
     background: rgb(243, 156, 18);
@@ -222,14 +233,6 @@ html {
     margin-bottom: 15px;
     font-size: 50px;
     letter-spacing: -1px;
-    color: black;
-  }
-
-  .main section.kabam h2 {
-    color: rgba(255,255,255,0.85);
-    text-align: left;
-    line-height: 160%;
-    font-weight: 100;
     color: black;
   }
 
@@ -254,14 +257,6 @@ html {
     margin-bottom: 15px;
     font-size: 50px;
     letter-spacing: -1px;
-    color: black;
-  }
-
-  .main section.gravity h2 {
-    color: rgba(255,255,255,0.85);
-    text-align: left;
-    line-height: 160%;
-    font-weight: 100;
     color: black;
   }
 
